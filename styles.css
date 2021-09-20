@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color: #023047;
+    --secondary-color: #ffb703;
+    --textarea-color: #219ebc;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}
+
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+label, input{
+    display: block;
+    padding: 0.5rem;
+    text-align: center; 
+    border-radius: 0.3rem;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+#check{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-width: medium;
+    cursor: pointer;
+}
+
+#check:hover{
+    opacity: 0.6;
+}
+
+#message{
+    display: block;
+    width: 80%;
+    height: 2.5rem;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    color: black;
+    background: var(--textarea-color);
+    border-color: var(--textarea-color);
+    border-width: medium;
+    border-radius: 0.25rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+::placeholder{
+    font-size: 0.8rem; 
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
