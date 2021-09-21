@@ -29,6 +29,6 @@ checkLucky.addEventListener("click", function isBirthDayLucky(){
     }
     else 
     {
-        message.innerText = "Please enter the required fields 🥺";
+        message.innerText = "Enter the required fields 🥺";
     }
 });
